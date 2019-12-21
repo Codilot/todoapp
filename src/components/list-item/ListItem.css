@@ -1,0 +1,37 @@
+.list__item {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.list__item.completed .checkbox {
+    color: black;
+    background: black;
+}
+
+.list__item.completed span {
+    color: white;
+}
+
+.list__item.completed input {
+    text-decoration: line-through;
+}
+
+.checkbox {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color .2s ease-in-out;
+    border: 1px solid black;
+}
+
+.checkbox:hover {
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0);
+}

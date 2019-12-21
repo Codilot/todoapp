@@ -1,0 +1,12 @@
+body {
+  background-color: #F9F4F1;
+  min-height: 100vh;
+}
+
+.app {
+  padding-top: 10rem;
+}
+
+form {
+  margin: auto;
+}
